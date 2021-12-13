@@ -1,8 +1,8 @@
-variable "project" {
-  description = "Database administrator username"
-  type        = string
-  sensitive   = true
-}
+#variable "project" {
+#  description = "Database administrator username"
+#  type        = string
+#  sensitive   = true
+#}
 
 variable "region" {
   default = "europe-west1"
