@@ -2,7 +2,7 @@ provider "google" {
   version = "3.53"
   project = var.project
   region  = var.region
-  zone    = var.region
+  zone    = var.zone
 
 }
 
