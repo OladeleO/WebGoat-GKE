@@ -1,5 +1,7 @@
 variable "project" {
-  default = "feisty-port-322217"
+  description = "Database administrator username"
+  type        = string
+  sensitive   = true
 }
 
 variable "region" {
