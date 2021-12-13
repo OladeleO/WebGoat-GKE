@@ -13,3 +13,5 @@ resource "google_container_cluster" "my_vpc_native_cluster" {
   initial_node_count = 3
 
 }
+
+##
