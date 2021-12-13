@@ -5,7 +5,7 @@
 #}
 
 variable "project" {
- default = "${var.TF_VAR_PROJECT_ID}" 
+ default = "webg-335019" 
 }
 
 variable "region" {
