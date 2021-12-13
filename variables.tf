@@ -4,6 +4,10 @@
 #  sensitive   = true
 #}
 
+variable "project" {
+ default = "${var.TF_VAR_PROJECT_ID}" 
+}
+
 variable "region" {
   default = "europe-west1"
 }
