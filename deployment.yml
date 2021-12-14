@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webgoat-deployment-gke
+  name: owasp-webgoat-webwolf-gke
 spec:
   replicas: 3
   selector:
