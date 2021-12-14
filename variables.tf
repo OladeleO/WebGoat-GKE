@@ -13,7 +13,7 @@ variable "region" {
 }
 
 variable "zone"  {
-  default = "europe-west1-c"
+  default = "europe-west1-b"
 }
 
 variable "cidr" {
